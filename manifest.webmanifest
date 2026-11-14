@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "AI会議リレー・コンシェルジュ",
+  "short_name": "AI会議リレー",
+  "description": "複数のAIの回答をつなぎ、提案・検討・改善を進めるプロンプト作成アプリ",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#6754c5",
+  "icons": [
+    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ],
+  "categories": ["productivity", "utilities"]
+}
