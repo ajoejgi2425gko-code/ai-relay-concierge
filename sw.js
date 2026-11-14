@@ -1,7 +1,7 @@
 'use strict';
 // Cache names include this app's scope. Never delete another GitHub Pages app's cache.
 const PREFIX = 'ai-relay-pwa:' + encodeURIComponent(self.registration.scope) + ':';
-const CACHE = PREFIX + 'v1-20261114';
+const CACHE = PREFIX + 'v2-20261114';
 const ASSETS = ['./','./index.html','./style.css','./app.js','./core.mjs','./pwa.js','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 const URLS = new Set(ASSETS.map(p => new URL(p, self.registration.scope).href));
 self.addEventListener('install', event => {
